@@ -1,0 +1,11 @@
+# Recorded validation — 2026-10-08
+
+This public release contains the stock, fund look-through and autonomous opportunity workflows, data collection helpers and independent decision guidance. Local release checks passed 266 regression tests, Python syntax checks and relative-reference validation. The uploaded copy preserves the implemented calculations and dependencies; machine-specific runtime details have been replaced with portable setup.
+
+Representative development requests covered domestic/foreign stock research, exchange-fund look-through, active QDII, FOF, bond funds and autonomous discovery to named instruments. Actual minute-source validation retained volume inconsistencies and revisions instead of treating them as confirmed volume evidence. A separate independent decision evaluation supported early staged entry when justified and revoked the proposal after material counterevidence.
+
+The KDJ/RSI extension was independently recomputed from public daily inputs, with maximum differences below 9e-14. Two domestic samples returned 368 matched price/turnover observations through 2026-09-30; the last 240 fed the named local cost-distribution model. Original parsed fields matched source rows. Frozen chip replay and a 1,274-day stock dossier replay passed. Seed-sensitivity checks demonstrate why residual initial inventory is material to exact peak interpretation. Corporate-action collection returned dated factors and original-unit dividend records for a representative issuer.
+
+The release does not bundle the developer's raw source archives, databases, private portfolios, report outputs or local audit directories. The regression tests and public calculation/replay tools are included for reproducibility. Run new collections for the requested instrument/date: recorded samples do not establish current endpoint availability, universal instrument coverage or a calibrated investment return probability.
+
+Latest statutory reports, event dates, ETF NAV/IOPV and product-channel conditions are researched on demand when they change a decision. Stable exchange Level-2/ticks, real institution identities and undisclosed current fund positions are outside demonstrated free-source coverage. Recurring-task deployment is separate from using the research skill.

@@ -1,0 +1,60 @@
+{
+  "families": {
+    "chinaamc-csi300-feeder": {
+      "fund_family_name": "华夏沪深300交易型开放式指数证券投资基金联接基金",
+      "codes": {"A": "000051", "C": "005658"},
+      "source": {
+        "url": "https://fund.chinaamc.com/upload/resources/file/2026/05/29/a87a41e0ec074fa1bb88aed07257bdba.pdf",
+        "publication_date": "2026-05-29",
+        "sha256": "a1ee4fc2fe735f6ea882957e33a69b90a76626758b94613c44b9d1a6e96e1d5a",
+        "pages": [96, 97, 98, 143]
+      },
+      "identity_bridge": {
+        "url": "https://fund.chinaamc.com/upload/resources/file/2026/08/31/5bb637d64a3a45d99e4684ea96aaf2a8.pdf",
+        "publication_date": "2026-08-31",
+        "sha256": "9eb012bc19c94249e456f6c88925a6ad429a93c82252561d887061e299b3827b",
+        "pages": [5]
+      },
+      "reviewed_passages": [
+        {"page": 96, "text": "100万元以下 1.2%"},
+        {"page": 96, "text": "100万元以上（含100万元）-500万元以下 0.9%"},
+        {"page": 96, "text": "500万元以上（含500万元）-1000万元以下 0.6%"},
+        {"page": 96, "text": "1000万元以上（含1000万元） 每笔1,000.00元"},
+        {"page": 96, "text": "本基金C类基金份额不收取申购费"},
+        {"page": 96, "text": "7天以上（含7天）-1年以内 0.5%"},
+        {"page": 96, "text": "1年以上（含1年） 0"},
+        {"page": 96, "text": "持有满7天以上（含7天）的，赎回费为0"},
+        {"page": 97, "text": "净申购金额＝申购金额/（1＋前端申购费率）"},
+        {"page": 98, "text": "净赎回金额=赎回总金额-赎回费用"},
+        {"page": 143, "text": "C类销售服务费年费率为0.3%"},
+        {"page": 143, "text": "E为各类别基金份额前一日基金资产净值"},
+        {"page": 143, "text": "H＝E×R÷当年天数"}
+      ],
+      "common_portfolio_and_ongoing_terms_identical": true,
+      "common_management_annual_fraction": 0.0015,
+      "common_custody_annual_fraction": 0.0005,
+      "common_management_custody_base": "max(previous_fund_NAV_minus_held_target_ETF_NAV,0)",
+      "sales_service_charge_base": "previous_calendar_day_full_share_class_NAV",
+      "one_year_day_boundary_explicitly_reviewed": false,
+      "classes": {
+        "A": {
+          "code": "000051",
+          "sales_service_annual_fraction": 0,
+          "subscription_tiers": [
+            {"min_amount": 0, "max_amount_exclusive": 1000000, "fraction": 0.012},
+            {"min_amount": 1000000, "max_amount_exclusive": 5000000, "fraction": 0.009},
+            {"min_amount": 5000000, "max_amount_exclusive": 10000000, "fraction": 0.006},
+            {"min_amount": 10000000, "max_amount_exclusive": null, "fixed_CNY": 1000}
+          ],
+          "redemption": {"type": "seven_day_and_one_year", "under_7_day_fraction": 0.015, "seven_days_to_one_year_fraction": 0.005, "at_least_one_year_fraction": 0}
+        },
+        "C": {
+          "code": "005658",
+          "sales_service_annual_fraction": 0.003,
+          "subscription_tiers": [{"min_amount": 0, "max_amount_exclusive": null, "fraction": 0}],
+          "redemption": {"type": "seven_day_only", "under_7_day_fraction": 0.015, "at_least_7_day_fraction": 0}
+        }
+      }
+    }
+  }
+}

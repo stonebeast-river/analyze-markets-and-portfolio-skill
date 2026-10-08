@@ -2,6 +2,8 @@
 
 Use this framework to scan broadly while concentrating detailed research on material changes.
 
+This reference covers equity sectors and themes. Use the full-market data layer and report template to discover cross-asset opportunities in rates, credit, FX, commodities, regions, styles, cash, and other asset classes. Do not let an equity-sector scan become the entire opportunity universe.
+
 ## 1. Define the sector universe
 
 - For mainland China, inspect at least financials, property and construction, consumer staples, consumer discretionary and services, healthcare, industrials and capital goods, technology/electronics/semiconductors, energy, materials, and utilities, plus material policy or thematic groups.
@@ -61,7 +63,7 @@ Deep-dive a sector when at least one event is material and another evidence type
 - valuation regime change;
 - supply-chain disruption or technological adoption shift.
 
-If only one weak signal exists, put the sector on the watchlist instead.
+If only one event cluster exists, retain the sector as `not yet`. A `watch` candidate requires at least two independent evidence types but may still be waiting for one named decision trigger. Two articles, correlated prices, or a headline plus the same-session price response do not count as independent evidence.
 
 ## 5. Form an opportunity thesis
 
@@ -85,25 +87,52 @@ Separate four opportunity types:
 
 Avoid presenting pure momentum, low valuation, high yield, or a popular narrative as sufficient by itself.
 
+Require thesis-specific core evidence before assigning `watch` or `worth dedicated research`:
+
+| Opportunity type | Required core evidence |
+| --- | --- |
+| `fundamental improvement` | At least one point-in-time, asset- or sector-specific measure of earnings, revenue, margins, orders, guidance, revisions, or another named fundamental driver. Macro resilience and price strength alone do not qualify. |
+| `policy or liquidity transmission` | A funded, enacted, or implemented policy/liquidity change plus an observable transmission measure in the affected economy, industry, credit channel, or market. Policy language alone does not qualify. |
+| `valuation mean reversion with catalyst` | A comparable point-in-time valuation measure for the target plus a distinct catalyst or evidence of fundamental stabilization. Being below a prior price is not valuation evidence. |
+| `defensive or diversification value` | An exposure-specific carry, duration, convexity, correlation, or stress-behavior measure that matches the proposed instrument, plus evidence for the defined risk scenario. A different maturity or wrapper does not qualify. |
+
+Price action can confirm or challenge these measures but cannot replace the required core evidence. Apply the target-evidence identity gate from the data-layer reference before counting an observation.
+
+These core roles qualify the stated economic claim, not every possible investment route. An enacted-policy claim needs implementation evidence; an anticipatory trade may instead rest on a named pending event, existing positioning/valuation and an explicit recognition or disappointment scenario. Keep realized facts and expectations distinct, continue source research and judge that route independently. Do not reject all pre-catalyst entries solely because the event or transmission has not happened.
+
 Every daily candidate must explicitly include one of the four opportunity types and an evidence confidence of `high`, `medium`, or `low`. Compare it with at least one credible alternative or explain why cash/waiting has the better current risk-reward. Use exactly `worth dedicated research`, `watch`, or `not yet` for the follow-up field.
+
+Apply the status meanings consistently:
+
+| Follow-up status | Minimum standard | Action implication |
+| --- | --- | --- |
+| `worth dedicated research` | The Level 2 trigger screen passes with at least two independent evidence types and no material data-contract gap for the claim. | Deeper research only; not a purchase recommendation. |
+| `watch` | Required core evidence is present and at least one independent evidence type supports or challenges it, but one named research or decision question remains unresolved. | Research tracking state; an independent final recommendation must assess which uncertainty changes action. |
+| `not yet` | Required core evidence is missing, target and evidence do not match, only one event cluster exists, evidence conflicts, or another thesis-level field/window is missing. | Unqualified; do not frame as an investable opportunity. |
+
+Keep one coherent economic exposure per candidate. Do not combine cash, money-market products, and medium-duration bonds merely because all can appear defensive; their duration, drawdown, and reinvestment risks differ.
 
 ## 6. Control daily-report depth
 
 In the recurring daily report:
 
 - keep the opportunity thesis and evidence complete but compact;
-- name only the likely investable route, such as a broad asset, sector index, thematic index, commodity exposure, or product category;
+- identify the exposure, then research the promising candidates through to exact stocks, ETFs or fund share codes;
 - mark the candidate as `worth dedicated research`, `watch`, or `not yet`;
-- do not perform a complete index-methodology review or compare specific funds and ETFs;
+- perform the material stock/index/product due diligence needed for the recommendation; keep routine-report presentation compact;
 - do not imply that a follow-up flag authorizes a purchase.
 
-The daily report should reveal possibilities and the conditions that make them interesting. The user decides which possibility deserves deeper work.
+The daily report should complete the authorized opportunity research and show the concrete candidates, timing conditions and final recommendation. A research flag alone does not finish the task.
 
-On routine days, prefer two to four well-supported candidates over a long speculative list. If nothing clears the evidence threshold, say `no qualified new opportunity` and preserve existing watch items. On event days, add candidates only when the event creates a distinct thesis rather than another expression of the same trade.
+Do not translate all research flags into an automatic cash recommendation. Once material evidence has been gathered, compare current entry, early staged exposure, confirmation entry and waiting on their own economics. A direct recommendation may remain conditional without postponing the entire judgment; only core facts that could reverse it are hard blockers.
 
-## 7. Expand products only on demand
+On routine days, prefer two to four well-supported candidates over a long speculative list. If no candidate reaches `worth dedicated research`, say `no opportunity cleared the dedicated-research gate; N watch items remain`. If no candidate reaches even `watch`, say `no qualified opportunity or watch item`. On event days, add candidates only when the event creates a distinct thesis rather than another expression of the same trade.
 
-When the user explicitly chooses an opportunity for deeper research:
+The candidate count is a ceiling, not a quota. Zero candidates is correct when evidence is weak or risk-reward is inferior to waiting.
+
+## 7. Complete specific candidate due diligence
+
+For an explicit security question or an autonomous opportunity scan, continue promising candidates into deeper research without requiring the user to choose them first:
 
 1. Revalidate that the opportunity thesis and trigger conditions still hold.
 2. Find credible indices or other investable expressions. Compare methodology, constituents, concentration, rebalancing, geographic and currency exposure, historical behavior, and fit with the thesis.
@@ -117,7 +146,7 @@ When the user explicitly chooses an opportunity for deeper research:
 4. Produce a short candidate list with strengths, weaknesses, suitable use cases, and evidence confidence.
 5. Give observable confirmation, waiting, review, and invalidation conditions rather than an automatic order instruction.
 
-Do not continue from opportunity discovery to product due diligence unless the user requests it. Never execute or alter an investment plan merely because a candidate ranks well.
+The user has authorized autonomous discovery through named-security/product analysis and entry/addition recommendations. Complete that research, apply the final decision protocol and retain any unmet entry conditions. Trading execution remains a separate user decision.
 
 ## 8. Preserve independence from the portfolio
 

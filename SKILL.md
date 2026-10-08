@@ -1,133 +1,73 @@
 ---
 name: analyze-markets-and-portfolio
-description: Produce evidence-first market research with a one-minute executive view, a complete independent market analysis including sector rotation and opportunity discovery, and a clearly separated personalized impact assessment for the user's funds, ETFs, gold, and recurring investment plan. Use for daily or weekly market briefs, macro and cross-asset analysis, sector or theme scanning, investment-opportunity research, investment-news synthesis, portfolio impact reviews, and prompts or automations that must avoid filtering the market through current holdings.
+description: Research stocks, ETFs and off-exchange funds, assess market direction, develop entry and add-position plans, and discover concrete investment candidates independently. Use for security questions, fund look-through, market opportunity scans and strategy evaluation; collect and verify the data needed for the decision.
 ---
 
-# Analyze Markets and Portfolio
+# Market and Fund Research
 
-## Purpose
+Improve the user's investment decisions with independent research, constructive alternatives and evidence that can be revisited. Respond in the user's language and make a clear judgment at the strength supported by the facts. Keep necessary scientific qualifications; omit generic disclaimers and repetitive risk prose.
 
-Build three reading layers:
+## Choose the scope
 
-1. Give a one-minute view of the three most important developments and whether the prior market view changed.
-2. Complete an independent market analysis, including material sector rotation and opportunities, without using the user's holdings as an information filter.
-3. Lock that market conclusion, then add a separate portfolio-impact appendix.
+- **Stock/fund analysis or autonomous opportunity discovery:** read [investment-outcomes.md](references/investment-outcomes.md) for the requested functional outcomes. Collect the data proactively, complete material follow-up research and reach a concrete, horizon-specific conclusion. Autonomous discovery includes due diligence on named securities/products and timing plans; a list of sector leads alone does not finish it.
+- **One stock and its entry/addition decision:** read [stock-research-workflow.md](references/stock-research-workflow.md). Use scripts for collection, curves and repeatable calculations; form the final independent research judgment from the full evidence rather than copying a fixed model/rule output.
 
-Never collapse these layers. The portfolio is an application of the market analysis, not the boundary of the research universe. Preserve the epistemic separation between independent research and personalization even when the reading layout has three layers.
+- **Complete allocation/tactical chain:** read [research-workflow.md](references/research-workflow.md) to freeze independent evidence, lock the market view and load private holdings afterwards.
 
-## Load the references
+- **Focused market or investment question:** read [decision-protocol.md](references/decision-protocol.md) when comparing an action, alternatives, the existing plan and waiting. Answer the question without expanding it into a full report.
+- **One fund and its allocation/addition decision:** read [fund-research-workflow.md](references/fund-research-workflow.md), then the relevant product mechanics in [fund-research.md](references/fund-research.md). `research-fund` assembles supported evidence; continue the independent underlying/product research to a complete report and exact-share action plan.
+- **Structured collection, indicators, discovery or data diagnosis:** read [data-engine.md](references/data-engine.md) and [provider-registry.md](references/provider-registry.md). Check [validation-status.md](references/validation-status.md) for the dated test boundary, and [local-runtime.md](references/local-runtime.md) for this machine's isolated interpreter. Verify the live state needed for this request.
+- **Complete daily/weekly report:** read [full-market-workflow.md](references/full-market-workflow.md) and [report-template.md](references/report-template.md). Keep independent market research and the personalized appendix separate; vary depth with materiality.
+- **No candidate supplied / proactive opportunity discovery:** read [autonomous-research-workflow.md](references/autonomous-research-workflow.md). Continue from a market/sector scan to named securities and exact fund shares within the same request. Use [sector-opportunity-framework.md](references/sector-opportunity-framework.md) for evidence gates and [transmission-map.md](references/transmission-map.md) for material cross-asset channels.
+- **Prior-view review:** read [thesis-ledger.md](references/thesis-ledger.md). **Backtest or systematic-strategy claims:** read [strategy-validation.md](references/strategy-validation.md). **Historical-cutoff evaluation:** read [operational-test-protocol.md](references/operational-test-protocol.md).
+- **Requested automation changes:** read [automation-instructions.md](references/automation-instructions.md), inspect the actual existing task and preserve its identity, schedule, enabled state, holdings and notification requirements.
 
-- Read `references/report-template.md` before producing a market report.
-- Read `references/transmission-map.md` when tracing macro, policy, currency, rates, or cross-asset effects.
-- Read `references/sector-opportunity-framework.md` when scanning industries, judging rotation, or identifying opportunities.
-- Read `references/automation-instructions.md` when creating or updating a recurring market-analysis task.
+## Market first, holdings last
 
-## Research workflow
+Discover and form market theses independently of holdings, preferences and the user's proposed trade. For a focused question, establish the independent security/product conclusion before adapting it to the user's position. For a full portfolio report using the packaged engine, lock the market view and candidate states before loading the authoritative portfolio. Then map exposure, concentration, overlap, currency and product constraints. Holdings already present in context do not define the discovery universe. Never infer positions or share classes from examples, memory or a starter configuration.
 
-### 1. Set the evidence boundary
+The research universe includes equities, regions, styles, rates/credit, FX, commodities and investable products. A configured watchlist or collected subset is not a full-market scan. Report the requested scope, actual coverage and missing areas. Collection of every tick is not necessary for broad discovery; collect deeper histories only for shortlisted questions.
 
-- State the analysis cutoff time and timezone.
-- For current markets, browse and verify time-sensitive facts.
-- Use this source order for material claims: official releases and filings; exchanges and index providers; established market-data vendors; reputable financial reporting for context. Use aggregators only when better sources are unavailable, disclose the fallback, and avoid links that are inaccessible or silently overwritten with current data.
-- For historical-cutoff analysis, use only information whose original publication or update time is at or before the cutoff. Do not use later retrospectives, revised releases that were unavailable then, or post-cutoff market outcomes, even when they describe an earlier event.
-- Cite each material factual claim near the claim.
-- Distinguish confirmed fact, market interpretation, model inference, and unknown.
-- Do not invent a price, return, flow, valuation, holding, forecast, or source.
-- When a prior report is available, retrieve its core thesis, scenarios, watch items, and invalidation conditions before analyzing the new day.
+## Complete the user's research request
 
-### 2. Analyze the market independently
+Tools produce evidence and calculations; the skill must connect them to a clear investment judgment. A catalogue of data, a technical chart, an announcement download, a screen result or a script's rule-based opinion is an intermediate result. Finish the relevant stock/fund/discovery workflow and explain the strongest countercase before presenting the action plan.
 
-Cover the material market universe before reading the portfolio through it:
+Use the bundled collector for supported data and repeatable calculations. Use current official pages, filings and available public sources for material evidence it does not yet collect. A missing adapter is a reason to choose another retrieval route, not to stop at an empty field. Keep source failure separate from a field that is not disclosed. Avoid repeated identical failed requests; use a materially different source or narrow the affected claim.
 
-- global macro: growth, inflation, employment, policy, fiscal conditions, liquidity;
-- equities: mainland China, Hong Kong, United States, and other regions only when material;
-- rates and credit: sovereign yields, real yields, curve changes, risk spreads when available;
-- currencies: dollar, renminbi, and other material crosses;
-- commodities: gold, oil, and other commodities when they change the market story;
-- industries and themes: market breadth, relative performance, earnings changes, valuation, policy, flows, and important catalysts;
-- earnings, valuation, positioning, flows, sentiment, and major event risks.
+For KDJ, RSI, estimated cost distributions, adjustment/dividend data and source priorities, read [technical-and-source-extensions.md](references/technical-and-source-extensions.md). Use these measurements where they change the timing or price discussion; they do not add universal all-indicator entry gates.
 
-Do not create a mechanical asset checklist full of trivia. Prioritize what changed, what matters, and what explains multiple assets at once.
+When developing or testing this skill, use a bounded representative sample tied to a specific acceptance question. Stop collecting sample documents when that question is resolved and return to reusable instructions/tools. Historical sample codes, holdings and thresholds are test inputs, not defaults for future research.
 
-### 3. Build causal explanations
+## Data and interpretation
 
-For every major conclusion, use this chain:
+Use the relevant configured collection profile and read `health`, `snapshot` and the question-specific `evidence` package before interpreting structured numbers. If a profile is not configured, inspect existing data and collect the targeted fields that are feasible; continue official-source research while explicitly retaining numerical gaps. Do not require unrelated collectors for a focused question or replace a failed field with an undated snippet.
 
-`event or data -> changed expectation -> transmission channel -> affected asset or segment -> horizon -> evidence that would invalidate the view`
+Keep raw/provider-reported values, local calculations, vendor-derived classifications and analytical interpretation distinct. Preserve identity, source, observation and publication time, timezone, units, currency, session, adjustment basis and revision. Calendar age alone does not establish staleness; use the relevant exchange/valuation calendar and read-time policy. An observation-date cutoff alone is not a point-in-time test.
 
-- Test at least one competing explanation for an important market move.
-- Do not infer causation from simultaneous price movements alone.
-- Separate a one-day catalyst from a medium-term regime change.
-- Explain conflicting signals rather than forcing a single narrative.
+MACD, volume ratio, inner/outer volume, displayed-book imbalance and vendor flows can support directional and timing judgments. They do not by themselves prove earnings improvement, institutional identity or a calibrated return probability. Retain the provider's BBD/DDE/flow definitions. An index with zero book fields has no usable order book. Never merge providers, currencies or adjustment variants into one series. Return windows on minute bars mean bars, not days.
 
-### 4. Validate the prior view
+For any material missing, conflicting, stale or unmatched core evidence, downgrade the affected conclusion. A proxy ETF is not its index, an ETF's traded price is not its NAV, cumulative NAV is not a dividend-reinvested total-return series, and a long yield is not short-duration evidence. Preserve a valid underlying-market judgment when only wrapper details are missing, while deferring product selection.
 
-- State what the previous report expected, what has since happened, and which evidence strengthened, weakened, or invalidated that view.
-- Distinguish a forecast that was wrong from one whose trigger has not occurred yet.
-- Carry forward unresolved watch items instead of silently replacing yesterday's narrative.
-- If no reliable prior report is available, say so and establish today's report as the baseline.
+## Judgment and discovery
 
-### 5. Scan sectors and discover opportunities
+Challenge unsupported proposals plainly. Compare the user's proposal, a credible alternative, the existing plan and waiting when relevant. Explain the changed expectation, transmission channel, horizon, strongest countercase and invalidation condition; simultaneous moves are not causal proof.
 
-- Scan the full relevant industry universe for breadth, relative strength, leadership changes, earnings revisions, valuation shifts, policy or commodity exposure, and unusual but reliable flow or volume signals.
-- For mainland China, Hong Kong, and the United States, always produce one compact market-level sector summary showing named strengthening and weakening groups, multi-horizon evidence, breadth, and rotation confidence. A broad label such as `China reopening`, `A-shares`, or `US growth` is not a substitute for named industries or themes. If no meaningful divergence exists, say so; if evidence is unavailable, name the missing evidence rather than silently omitting the market.
-- Inspect one day, one week, and one-to-three-month relative behavior when reliable data permit. Treat a single session as a catalyst observation, not a rotation signal, unless another independent evidence type confirms it.
-- Deep-dive only sectors with a material policy, earnings, funding, valuation, supply-chain, or price change, or those becoming a market-leading theme.
-- Distinguish durable rotation from a one-day rebound, short covering, or low-liquidity noise.
-- Identify opportunities even when the user holds none of them. In the daily report, keep each opportunity compact: state its opportunity type, thesis, supporting evidence, confidence, catalyst, horizon, key risk, confirmation and invalidation conditions, credible alternative, reason to wait when applicable, a high-level investable path, and whether it merits dedicated follow-up.
-- Compare opportunities with credible alternatives and the cost of waiting. Do not turn a sector leaderboard into a recommendation.
-- Do not run a full index, ETF, or mutual-fund comparison inside the daily report. When the user chooses to investigate an opportunity, expand it on demand into index and product due diligence using `references/sector-opportunity-framework.md`.
-- During on-demand due diligence, compare verified investable options and observation or entry conditions, but leave research continuation and any actual execution decision to the user.
-- Keep sector opportunity discovery separate from the personalized holding assessment.
+The executable `screen` prioritizes questions, with `needs_investigation`, `insufficient_evidence` or `no_significant_signal`. It does not produce a probability or investment stance. Obtain the evidence needed for the actual thesis and apply the decision protocol; a fact-qualification gate for one opportunity type is not a universal requirement that every catalyst has already happened. Two descriptions of one event or two same-event price moves are one evidence cluster. Multiple roles of one LLM are not independent evidence or a separate trained quantitative model.
 
-### 6. Define regime, scenarios, and watch items
+Use `worth dedicated research`, `watch` or `not yet` only after the framework's evidence gate. A non-action state must not end with an unsupported small-buy suggestion. Triggers need a source, metric/event, direction or threshold, observation window and review point. A quiet market may have no qualified candidate.
 
-- Summarize the current combination of growth, inflation, liquidity, policy, and risk appetite.
-- Give a base case plus material upside and downside alternatives when uncertainty warrants it.
-- Attach observable triggers and invalidation conditions to scenarios.
-- Identify opportunities, risks, and upcoming data or events across the market, including areas the user does not currently hold.
-- Avoid precise probability or target-price claims unless a reproducible method and sufficient data support them.
+These are intermediate research states. After completing the relevant due diligence and portfolio review, give the final recommendation: build, add, hold, reduce, exit or wait, with its conditions and reasoning. Keep the preliminary research state and final action plan distinct. When personal amounts are absent, state the independent market decision and the sizing inputs or clearly labeled budget scenario needed to turn it into a personal plan.
 
-### 7. Add the portfolio-impact appendix
+## Decide under uncertainty
 
-Only after completing the independent report:
+Lead with a preferred current action and a horizon-specific direction. Investment judgment is an inference from available evidence; it need not wait for proof of future returns or agreement among every indicator. Compare acting now, entering before a catalyst, waiting for price confirmation and an alternative when relevant. A credible early thesis may support a staged entry before trend confirmation; explain its expected recognition mechanism, price/valuation tradeoff and invalidation. Do not convert a confirmation setup or the bundled script's default into a universal purchase gate.
 
-- Obtain holdings from the current request, the configured automation, or a portfolio ledger the user has explicitly designated as authoritative. Do not treat general conversational memory, inferred history, or example holdings as authoritative, and do not guess missing positions.
-- When portfolio impact is requested but no authoritative holdings are available, ask the user to provide their own holdings before producing the personalized appendix. Request at least the product name or identifier and exact share class; invite, but do not require, current weight or amount, currency, and recurring-investment plan. If the user declines, still provide the complete independent market report and mark the personalized appendix unavailable.
-- Resolve each holding's underlying index or strategy, geography, sector, currency, rate sensitivity, commodity exposure, and product-specific frictions.
-- Map direct effects, indirect effects, and offsets from the market conclusions.
-- Separate short-term price effects, medium-term earnings or policy effects, and long-term thesis effects.
-- Analyze portfolio interactions: concentration, hidden overlap, currency exposure, correlation shifts, diversification, and recurring-investment risk.
-- State whether the original investment thesis or only the near-term price environment changed.
-- Use restrained outcomes such as `plan unchanged`, `watch closely`, or `review threshold reached`. Do not turn daily noise into a buy/sell instruction.
+Hard restrictions concern unreliable core data, a false instrument/claim, an unresolved material risk that could overturn the thesis, or an infeasible implementation. Ordinary uncertainty, an unproven model edge, missing noncore flow/book fields and an event not yet realized affect confidence, sizing or the affected claim; they do not automatically require waiting. Waiting is a substantive decision only when its expected benefit exceeds its opportunity cost, with a named reason and reassessment point.
 
-If reliable portfolio data are unavailable, still deliver the complete market report and mark the personalized appendix as incomplete. Never shrink the market report to compensate.
+User-facing research gives the judgment, evidence and execution plan. Keep engineering acceptance, test coverage, model-validation status and repeated “cannot prove” language in supporting records unless the user asks or the fact changes this investment decision. Mention each material limitation once near its affected claim. Distinguish observed fact, management expectation and your own forecast naturally, without appending generic defensive conclusions.
 
-### 8. Validate before delivery
+## Accountability and release
 
-- Check dates, units, currencies, fund share classes, trading sessions, and data lags.
-- Recalculate streaks, new-high or new-low claims, and cumulative returns from the dated underlying price series. Never treat consecutive positive candles, a cumulative gain, or a secondary-source phrase as proof of consecutive close-to-close gains.
-- For QDII and overseas-linked funds, account for valuation-day mismatch and FX translation.
-- For gold-linked products, distinguish international gold, renminbi gold, exchange rate, domestic premium or discount, and product fees.
-- Red-team the strongest conclusion and disclose the most important counterevidence.
-- Remove generic news summaries that do not change the market interpretation.
-- Make the conclusion proportional to evidence quality.
+Preserve original theses, horizons, benchmarks and conditions. Append dated reviews and outcomes; do not rewrite prior claims using hindsight. Use authoritative holdings only after the market view is locked. Report material evidence near the claim and distinguish verified collection from code availability.
 
-## Daily-report behavior
-
-- Lead with the market's central question, not a holdings update.
-- Use the three reading layers: one-minute view, complete market research, and personalized appendix.
-- In the one-minute view, name the three most important developments and whether the prior thesis changed.
-- Explain why assets moved and whether the explanation is durable.
-- Report no material change when that is the honest conclusion.
-- Keep the full-market report useful to a reader with no portfolio.
-- Put all personalized material under a visibly separate heading near the end.
-- Scan all relevant sectors daily, but expand only material rotation and opportunity candidates.
-- Keep routine days compact: do not repeat the same fact in the dashboard, narrative, causal table, and watchlist. On quiet days, explicitly report no material regime or rotation change and shorten the deep dives. Expand only sections affected by a genuinely material event.
-
-## Boundaries
-
-- Support research and decision discipline; do not claim guaranteed returns or privileged predictive power.
-- Do not execute trades or alter recurring investments unless the user separately and explicitly requests that action.
-- Never interpret an opportunity flag, candidate index, or product shortlist as authorization to invest. The user decides whether to investigate further and whether to execute.
-- Do not let promotional language, analyst targets, social sentiment, or a single technical indicator override primary evidence.
+The collector uses free public sources and optional free registered APIs. Keys belong in the executing process environment, never in shared config, logs, reports or source. Runtime databases/configuration live outside the installed skill. Validate the edited skill's entrypoint, references, changed tools and representative request behavior before delivering it. Separately, a recurring collector needs representative target-machine checks and at least five consecutive trading sessions before its operational release. That operational gate does not turn a skill-editing request into automation deployment. Updating this skill alone does not authorize changing an existing automation or executing transactions.

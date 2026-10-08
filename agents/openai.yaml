@@ -1,7 +1,7 @@
 interface:
-  display_name: "Market & Portfolio Analysis"
-  short_description: "Independent market research, then portfolio impact"
-  default_prompt: "Use $analyze-markets-and-portfolio to produce an evidence-first market report, then separately assess the impact on my holdings."
+  display_name: "Market & Fund Research"
+  short_description: "Stock/fund research, timing and independent opportunities"
+  default_prompt: "Use $analyze-markets-and-portfolio to research stocks or funds proactively, explain their curves and exposure, assess direction and entry/addition conditions, and discover concrete opportunities independently before mapping my holdings."
   icon_small: "./assets/icon.svg"
   icon_large: "./assets/icon.svg"
 policy:

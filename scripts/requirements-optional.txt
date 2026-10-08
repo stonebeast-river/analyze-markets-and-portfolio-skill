@@ -1,0 +1,9 @@
+# Core collection uses the Python standard library.
+# These are the optional China-history/protocol connectors checked in this revision.
+baostock>=0.9.4,<0.10
+tdxpy>=0.2.7,<0.3
+# Windows IANA timezone data and official PDF document extraction.
+tzdata>=2026.1
+pypdf>=6,<7
+# Some issuers publish dealing limits as legacy XLS workbooks.
+xlrd>=2.0.1,<3

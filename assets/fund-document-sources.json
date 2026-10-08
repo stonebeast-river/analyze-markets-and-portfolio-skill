@@ -1,0 +1,576 @@
+{
+  "schema_version": 1,
+  "funds": {
+    "040046": {
+      "name": "华安纳斯达克100ETF联接(QDII)A",
+      "manager": "华安基金",
+      "registry_verified_at": "2026-10-05",
+      "issuer_document_hosts": [
+        "www.huaan.com.cn"
+      ],
+      "documents": [
+        {
+          "kind": "prospectus",
+          "publication_date": "2026-09-18",
+          "url": "https://www.huaan.com.cn/upload2010/2026/09/17/145708961_fc09e72f-efea-39ae-a433-06e05cc88c54.pdf",
+          "reviewed_facts": {
+            "sha256": "320c438faf30ed55921981ee4350f88f59ee644b42a0b354adb3d91d31b982dc",
+            "facts": {
+              "fund_type": "etf_link",
+              "share_class": "A",
+              "benchmark_name": "纳斯达克100指数",
+              "underlying_identity": "^NDX",
+              "management_fee_annual_fraction": 0.006,
+              "custody_fee_annual_fraction": 0.002,
+              "management_charge_base": "net_assets_excluding_target_ETF",
+              "custody_charge_base": "net_assets_excluding_target_ETF",
+              "sales_service_fee_annual_fraction": 0.0,
+              "nav_publication_normal_case": "T+2内公告，T+1计算",
+              "review_scope": "matched current prospectus clauses; exact target ETF code and current subscription-limit audit remain unresolved",
+              "confirmation_normal_case": "T+2 working days; valid request; query from T+3",
+              "redemption_payment_normal_case": "within T+10 working days including that day after successful redemption",
+              "dealing_exceptions": "overseas/FX/target-ETF closure, settlement disruption, large redemptions or contract suspension may extend payment",
+              "target_etf_name": "华安纳斯达克100交易型开放式指数证券投资基金(QDII)"
+            },
+            "reviewed_at": "2026-10-05",
+            "review_method": "source clauses and relevant fee page inspection; unresolved facts retained explicitly",
+            "field_evidence": {
+              "payment": {
+                "pdf_page": 61,
+                "excerpt": "构确认基金份额时,申购生效。基金份额持有人递交赎回申请,赎回成立;登记机构确认赎回时,赎回生效。基金份额持有人赎回申请成功后,基金管理人将在T+10日(包括该日)内支付赎回款项。如遇特殊情况,如国家外管局相关规定有变更、外汇市场休市或暂停交易、交易所或交易市场数据传输延迟、通讯系统故障、银行数据交换系统故障、目标ETF的投资市场休市、暂停交易或延迟交收、目标ETF暂停交易或赎回、目标ETF延迟支付赎回对价、交易清算规则发生较大变化等,赎回款项支付的时间可相应顺延。在发生巨额赎回或基金合同载明的其他暂停赎回或延缓支付赎回款项的情形时,款项的支付办法参照基金合同有关条款处理。3、申购和赎回申请的确认基金管理人应以交易时间结束前"
+              },
+              "confirmation": {
+                "pdf_page": 62,
+                "excerpt": "第61页共218页或赎回申请日(T日),在正常情况下,本基金登记机构在T+2日内对该交易的有效性进行确认。T日提交的有效申请,投资人应在T+3日后(包括该日)及时到销售机构柜台或以销售机构规定的其他方式查询申请的确认情况。若申购不成功,则申购款项本金退还给投资人,基金管理人或基金管理人指定的代销机构不承担由此产生的利息等任何损失。基金管理人可以在法律法规和基金合同允许的范围内,对上述业务办理时间进行调整,并在调整实施前依照《信息披露办法》的有关规定在规定媒介上公告。销售机构对申购和赎回申请的受理并不代表申请一定成功,而仅代表销售机构确实接收到申请。申购和赎回的确认以登记机构的确"
+              },
+              "nav_publication": {
+                "pdf_page": 68,
+                "excerpt": ".00元。3、基金份额净值的计算本基金各类基金份额分别设置基金代码,并分别公布基金份额净值。基金申购、赎回开放日(T日)的各类基金份额净值在T+1日计算,并在T+2日内公告。本基金各类基金分别计算并披露不同类别份额对应的基金份额净值。各"
+              }
+            }
+          }
+        },
+        {
+          "kind": "summary",
+          "publication_date": "2025-09-19",
+          "url": "https://www.huaan.com.cn/upload2010/2025/09/18/080636850_c5192f61-6691-353e-ac22-2fc33be7e982.pdf",
+          "reviewed_facts": {
+            "sha256": "23df9d8af41f7287de12ad9d864a5cb2a5cb3c3f00fb9f618ac27d193e1433ef",
+            "reviewed_at": "2026-10-05",
+            "review_method": "source clauses and fee-page rendering; dated summary compared with 2026 prospectus",
+            "field_evidence": {
+              "identity_currency": {
+                "pdf_page": 1,
+                "excerpt": "国道富银行StateStreetBankandTrustCompany基金合同生效日2022年12月9日上市交易所及上市日期-基金类型股票型交易币种人民币运作方式普通开放式开放频率每个开放日基金经理倪斌开始担任本基金基金经理的日期2022年12月9日证券从业日期2010年7月1日注:自2022年12月9日起,华安纳斯达克100指数证券投资基金转型为本基金,《华安纳斯达克100交易型开放式指数证券投资基金联接基金(QDII)基金合同》生效,原《华安纳斯达克100指数证券投资基金基金合同》自同一日起失效。二、基金投资与净值表现(一)投资目标与投资策略详情请阅读《招募说明书》中“基金的投资”章节的相关内容。投资目标本基金通过投资于目"
+              },
+              "redemption_schedule": {
+                "pdf_page": 3,
+                "excerpt": "前收费)M<100万元1.20%-100万元≤M<300万元0.80%-300万元≤M<500万元0.40%-M≥500万元-每笔1000元赎回费N<7天1.50%-N≥7天0.00%-赎回费本基金的赎回费用由赎回基金份额的基金份额持有人承担,在基金份额持有人赎回基金份额时收取,其中对持续持有期少于7日的投资者收取的赎回费将全额计入基金财产。(二)基金运作相关费用以下费用将从基金资产中扣除:费用类别收费方式/年费率或金额收取方管理费0.60%基金管理人和销售机构托管费0.20%基金托管人审计费用100,000.00元会计师事务所信息披露费120,000.00元规定披露报刊其他费用《基金合同》生效后与基金相关的律师费、基金份额持"
+              }
+            },
+            "facts": {
+              "share_class": "A",
+              "currency": "CNY",
+              "fund_type": "etf_link",
+              "exact_share_code": "040046",
+              "redemption_fee_rules": [
+                {
+                  "holding_days_lt": 7,
+                  "fraction": 0.015
+                },
+                {
+                  "holding_days_gte": 7,
+                  "fraction": 0.0
+                }
+              ],
+              "subscription_standard_fee_rules": [
+                {
+                  "amount_CNY_lt": 1000000,
+                  "fraction": 0.012
+                },
+                {
+                  "amount_CNY_gte": 1000000,
+                  "amount_CNY_lt": 3000000,
+                  "fraction": 0.008
+                },
+                {
+                  "amount_CNY_gte": 3000000,
+                  "amount_CNY_lt": 5000000,
+                  "fraction": 0.004
+                },
+                {
+                  "amount_CNY_gte": 5000000,
+                  "flat_CNY": 1000
+                }
+              ],
+              "platform_discount_verified": false,
+              "summary_currentness": "latest summary link on retrieved issuer list; the summary is dated 2025, not a 2026 document"
+            }
+          }
+        }
+      ]
+    },
+    "000217": {
+      "name": "华安黄金ETF联接C",
+      "manager": "华安基金",
+      "registry_verified_at": "2026-10-05",
+      "issuer_document_hosts": [
+        "www.huaan.com.cn"
+      ],
+      "documents": [
+        {
+          "kind": "summary",
+          "publication_date": "2026-03-17",
+          "url": "https://www.huaan.com.cn/upload2010/2026/03/17/001307059_4a6f3209-cccf-3e75-b325-92c1d34a4300.pdf",
+          "reviewed_facts": {
+            "sha256": "0350e538577c3aefc50a4a2c102d369a76a2c5d5200e667dc31e9ecc8759e42e",
+            "facts": {
+              "currency": "CNY",
+              "share_class": "C",
+              "fund_type": "etf_link",
+              "benchmark_name": "国内黄金现货价格收益率×95%＋人民币活期存款税后利率×5%",
+              "target_etf_name": "华安易富黄金交易型开放式证券投资基金",
+              "management_fee_annual_fraction": 0.005,
+              "custody_fee_annual_fraction": 0.001,
+              "sales_service_fee_annual_fraction": 0.0035,
+              "management_charge_base": "net_assets_excluding_target_ETF",
+              "custody_charge_base": "net_assets_excluding_target_ETF",
+              "sales_service_charge_base": "unknown",
+              "reported_comprehensive_expense_fraction": 0.0095,
+              "comprehensive_expense_meaning": "issuer retrospective estimate, not an additional fee to deduct from NAV return",
+              "redemption_fee_rules": [
+                {
+                  "holding_days_lt": 7,
+                  "fraction": 0.015
+                },
+                {
+                  "holding_days_gte": 7,
+                  "holding_days_lt": 30,
+                  "fraction": 0.001
+                },
+                {
+                  "holding_days_gte": 30,
+                  "fraction": 0.0
+                }
+              ]
+            },
+            "reviewed_at": "2026-10-05",
+            "review_method": "source clauses and relevant fee page inspection; unresolved facts retained explicitly"
+          }
+        },
+        {
+          "kind": "prospectus",
+          "publication_date": "2026-03-17",
+          "url": "https://www.huaan.com.cn/upload2010/2026/03/17/001306578_0b4c25c3-d593-37df-a2e1-b68e36017751.pdf",
+          "reviewed_facts": {
+            "sha256": "a6fb7e3d5a395511f613ffdf52f5c068aee14b2c1d7f1ad4a61662403655c3e7",
+            "reviewed_at": "2026-10-05",
+            "review_method": "matched source clauses and rendered sales-service fee page; exact C identity from separate current summary",
+            "field_evidence": {
+              "confirmation": {
+                "pdf_page": 87,
+                "excerpt": "换申请的确认基金管理人应以交易时间结束前受理申购、赎回与转换申请的当天作为申购、赎回与转换申请日(T日),在正常情况下,本基金注册登记机构在T+1日内对该交易的有效性进行确认。T日提交的有效申请,投资者可在T+2日后(包括该日)到销售网点柜台或以销售机构规定的其他方式查询申请的确认情况。基金销售机构对申购、赎回与转换申请的受理并不代表申请一定成功,而仅代表销售机构确实接收到申请。申购、赎回与转换的确认以注册登记机构或基金管理人的确认结果为准。3、申购和赎回的款项支付申购采用全额缴款方式,若申购资金在规定时间内未全额到账则申购不成功。若申购不成功或无效,基金管理人或基金管理人指定的代销机构将投资者已缴付的申购款项退还给投资者。投资者赎回申请成功后,"
+              },
+              "payment": {
+                "pdf_page": 87,
+                "excerpt": "购不成功。若申购不成功或无效,基金管理人或基金管理人指定的代销机构将投资者已缴付的申购款项退还给投资者。投资者赎回申请成功后,基金管理人将在T+7日(包括该日)内支付赎回款项。如遇特殊情况,如目标ETF投资市场暂停交易、目标ETF暂停交易或赎回、目标ETF延迟支付赎回对价、交易清算规则发生较大变化等,赎回款项支付的时间可相应调整。在发生巨额赎回时,赎回款项的支付办法参照基金合同"
+              },
+              "nav_publication": {
+                "pdf_page": 93,
+                "excerpt": ",由此产生的误差计入基金资产。注2:本基金暂未开通后端收费模式的基金转换业务。4、基金份额净值的计算T日的基金份额净值在当天收市后计算,并在T+1日内公告。遇特殊情况,经中国证监会同意,可以适当延迟计算或公告。T日A类基金份额净值=T日A类基金份额的基金资产净值总额/发行在外的A类基金份额总数T日C类基金份额净值=T日C类基金份额的基金资产净值总额/发行在外的C类基金份额总数T日I类基金份额净值=T日I类基金份额的基金资产净值总额/发行在外的I类基金份额总数"
+              },
+              "sales_service_base": {
+                "pdf_page": 122,
+                "excerpt": "第121页共178页本基金C类基金份额的销售服务费按前一日C类基金资产净值的0.35%年费率计提。C类基金份额销售服务费的计算方法如下:H=E×0.35%÷当年天数H为C类基金份额每日应计提的销售服务费E为C类基金份额前一日基金资产净值本基金I类基金份额的销售服务费按前一日I类基金资产净值的0.10%年费率计提。I类基金份额销售服务费的计算方法如下:I类基金份额销售服务费的计算方法如下:H=E×0.10%÷当年天数H为I类基金份额每日应计提的销售服务费E为I类基金份额前一日基金资产净值销售服务费每日计提,按月支付。由基金托管人根据与基金管理人核对一"
+              }
+            },
+            "facts": {
+              "share_class": "C",
+              "sales_service_fee_annual_fraction": 0.0035,
+              "sales_service_charge_base": "previous_day_C_share_class_net_assets_including_held_target_ETF_assets",
+              "confirmation_normal_case": "T+1 working day; valid request; query from T+2",
+              "redemption_payment_normal_case": "within T+7 working days including that day after successful redemption",
+              "nav_publication_normal_case": "T close calculation; announcement within T+1 working day",
+              "dealing_exceptions": "target-ETF suspension, settlement changes and large redemptions may extend payment"
+            }
+          }
+        }
+      ]
+    },
+    "017641": {
+      "name": "摩根标普500指数(QDII)人民币A",
+      "manager": "摩根基金",
+      "registry_verified_at": "2026-10-05",
+      "issuer_document_hosts": [
+        "www.cifm.com"
+      ],
+      "documents": [
+        {
+          "kind": "summary",
+          "publication_date": "2026-06-05",
+          "url": "https://www.cifm.com/fund/017641/lawfile/202606/P020260605329083392313.pdf",
+          "reviewed_facts": {
+            "sha256": "29e4c0c1fdd01818adb91ab1baab387b10318ed3b209cb000e859311ea450290",
+            "facts": {
+              "currency": "CNY",
+              "share_class": "A",
+              "fund_type": "qdii_index",
+              "management_fee_annual_fraction": 0.005,
+              "custody_fee_annual_fraction": 0.0015,
+              "reported_comprehensive_expense_fraction": 0.0066,
+              "subscription_standard_fee_rules": [
+                {
+                  "amount_CNY_lt": 500000,
+                  "fraction": 0.012
+                },
+                {
+                  "amount_CNY_gte": 500000,
+                  "amount_CNY_lt": 1000000,
+                  "fraction": 0.008
+                },
+                {
+                  "amount_CNY_gte": 1000000,
+                  "amount_CNY_lt": 5000000,
+                  "fraction": 0.003
+                },
+                {
+                  "amount_CNY_gte": 5000000,
+                  "flat_CNY": 1000
+                }
+              ],
+              "platform_discount_verified": false
+            },
+            "reviewed_at": "2026-10-05",
+            "review_method": "source clauses and relevant fee page inspection; unresolved facts retained explicitly"
+          }
+        },
+        {
+          "kind": "subscription_limit",
+          "publication_date": "2026-07-27",
+          "url": "https://www.cifm.com/fund/017641/announce/202607/P020260724555676027312.pdf",
+          "reviewed_facts": {
+            "sha256": "23ecd466cccc2e0b65e255f686f7f65912a222e35ea226cb859c0c7115d20089",
+            "facts": {
+              "effective_from": "2026-07-27",
+              "currency": "CNY",
+              "single_account_same_share_class_daily_total_limit": 10.0,
+              "covered_transactions": [
+                "subscription",
+                "recurring_subscription",
+                "conversion_in"
+              ],
+              "scope": "per account per RMB share class combined daily total",
+              "redemption_suspended_by_this_notice": false,
+              "currentness": "latest retrieved notice; later superseding notice audit required"
+            },
+            "reviewed_at": "2026-10-05",
+            "review_method": "source clauses and relevant fee page inspection; unresolved facts retained explicitly"
+          }
+        },
+        {
+          "kind": "prospectus",
+          "publication_date": "2026-06-05",
+          "url": "https://www.cifm.com/fund/017641/lawfile/202606/P020260605324267497339.pdf",
+          "reviewed_facts": {
+            "sha256": "b27c018b941efa91caf5089247b5433af3cb1339f9f97edde59128e0e17ccab5",
+            "reviewed_at": "2026-10-05",
+            "review_method": "exact primary prospectus clauses and fee-page rendering",
+            "field_evidence": {
+              "workday": {
+                "pdf_page": 9,
+                "context": "额发售之日起至发售结束之日止的期间,最长不得超过3个月37、存续期:指基金合同生效至终止之间的不定期期限38、工作日:指上海证券交易所、深圳证券交易所、本基金投资的主要境外市场以及相关期货交易所同时开放交易的工作日39、T日:指销售机构在规定时间受理投资人申购、赎回或其他业务申请的开放日"
+              },
+              "opening": {
+                "pdf_page": 10,
+                "context": "发起式证券投资基金(QDII)-招募说明书(更新)540、T+n日:指自T日起第n个工作日(不包含T日)41、开放日:指为投资人办理基金份额申购、赎回或其他业务的工作日42、开放时间:指开放日基金接受申购、赎回或其他交易的时间段43、《业务规则》:指《摩根基金管理(中国)有限公司开放式基金业务规则》,是规范基金管理人所管理的开放式证券投资基金登记方面的业务规则,由基金管理人和投资人共同遵守44、认购:指在基金募集期内,投资人根据基金合同和招募说明书的规定申请购买基金份额的行为45、申购:指基金合同生效后,投资人根据基金合同和招募说明书的规定申请购买基金份额的行为46、赎回:指基金合同生效后,基金份额持有人按基金合同和招募说明书规定的条件要求将基金份额兑换为现金的行为47、基金转换:指基金份"
+              },
+              "benchmark": {
+                "pdf_page": 32,
+                "context": "制或依变更后的规定执行,不需经基金份额持有人大会审议。五、业绩比较基准本基金的标的指数:标普500指数本基金的业绩比较基准为:标普500指数收益率(经汇率调整后)×95%+银行活期存款利率(税后)×5%。未来若出现标的指数不符合要求(因成份股价格波动等指数编制方法变动之外的因素致使标的指数不符合要求的情形除外)、指数编制机构退出等情形,基金管理人应当自该情形发生之日起十个工作日向中国证监会报告并提出解决方案,如更换基金标的指数、转换运作方式、与其他基金合并、或者终止基金合同等,并在6个月内召集基金份额持有人大会进行表决,基金份额持有人大会未成功召开或就上述事项表决未通过的,基金合同自动终止。自指数编制机构停止标的指数的编制及发布至解决方案确定期间,基金管理人应按照指数编制机构"
+              },
+              "confirmation": {
+                "pdf_page": 52,
+                "context": "理人应以交易时间结束前受理有效申购和赎回申请的当天作为申购或赎回申请日(T日),在正常情况下,本基金登记机构在T+2日内对该交易的有效性进行确认。T日提交的有效申请,投资人可在T+3日后(包括该日)到销售网点柜台或以销售机构规定的其他方式查询申请的确认情况。若申购无效或不成立,则申购款项本金退还给投资人。销售机构对申购、赎回申请的受理并不代表该申请一定成功,而仅代表销售机构确实接收到申购、赎回申请。申购、赎回的确认以登记机构的确认结果为准。对于申购申请及申购份额的确认情况,投资人应及时查询并妥善行使合法权利"
+              },
+              "management_charge_base": {
+                "pdf_page": 74,
+                "context": "(更新)69费用。二、基金费用计提方法、计提标准和支付方式1、基金管理人的管理费本基金的管理费按前一自然日基金资产净值的0.50%年费率计提。管理费的计算方法如下:H=E×0.50%÷当年天数H为每日应计提的基金管理费E为前一自然日的基金资产净值基金管理费每日计提,逐日累计至每月月末,按月支付,经基金管理人与基金托管人双方核对无误后,基金托管人按照与基金管理人协商一致的方式于次月前5个工作日内从基金财产中一次性支付给基金管理人。若遇法定节假日、公休假或不可抗力等,支付日期顺延。2、基金托管人的托管费基金的托管费包含基金托管人的托管费和境外托管人的托管费两部分。本基金的托管费按前一自然日基金资产净值的0.15%的年费率计提。托管费的计算方法如下:H=E×0.15%÷当年天数H为每日应计提的基金托管费E为前一自然日的基金资产净值基金托管费每日计提,逐日累计至每月月末,按月支付,经基金管理人与基金托管人双方核对无误后,基金托管人按照与基金管理人协商一致的方式于次月前5个工作日内从基金财产中一次性支取。若遇法定节假日、公休假或不可抗力等,支付日期顺延。3、销售服务费本基金人民币A类基金份额和美元份额不收取销售服务费,人民币C类基金份额的销售服务费按前一日人民币C类基金份额资产净值的0.30%年费率计提。销售服务费的计算方法如下:H=E×0.30%÷当年天数H为人民币C类基金份额每日应计提的销售服务费"
+              },
+              "custody_charge_base": {
+                "pdf_page": 74,
+                "context": "基金托管人的托管费基金的托管费包含基金托管人的托管费和境外托管人的托管费两部分。本基金的托管费按前一自然日基金资产净值的0.15%的年费率计提。托管费的计算方法如下:H=E×0.15%÷当年天数H为每日应计提的基金托管费E为前一自然日的基金资产净值基金托管费每日计提,逐日累计至每月月末,按月支付,经基金管理人与基金托管人双方核对无误后,基金托管人按照与基金管理人协商一致的方式于次月前5个工作日内从基金财产中一次性支取。若遇法定节假日、公休假或不可抗力等,支付日期顺延。3、销售服务费本基金人民币A类基金份额和美元份额不收取销售服务费,人民币C类基金份额的销售服务费按前一日人民币C类基金份额资产净值的0.30%年费率计提。销售服务费的计算方法如下:H=E×0.30%÷当年天数H为人民币C类基金份额每日应计提的销售服务费"
+              },
+              "payment": {
+                "pdf_page": 52,
+                "context": "明书(更新)47基金份额持有人递交赎回申请,赎回成立;登记机构确认赎回时,赎回生效。投资人赎回申请生效后,基金管理人将在T+10日(包括该日)内支付赎回款项。国家外汇管理相关规定有变更或本基金所投资市场的交易清算规则有变更时,赎回款支付时间将相应调整;当基金投资的主要境外市场休市、外汇市场休市或暂停交易时赎回款项支付日期顺延。遇证券/期货交易所或交易市场数据传输延迟、通讯系统故障、银行数据交换系统故障或其它非基金管理人及基金托"
+              },
+              "nav_publication": {
+                "pdf_page": 131,
+                "context": "布。(三)基金净值信息《基金合同》生效后,在开始办理基金份额申购或者赎回前,基金管理人应当至少每周在规定网站披露一次各类基金份额净值和基金份额累计净值。在开始办理基金份额申购或赎回之后,基金管理人应当在每个开放日后的2个工作日内,通过规定网站、基金销售机构网站或者营业网点,披露开放日的各类基金份额净值和基金份额累计净值。基金管理人应在不晚于半年度和年度最后一日的次2个估值日,在规定网站披露半年度和年度最后一日的各类基金份额净值和基金份额累计净值。八、基金合同的终止事由、程序与基金资产的清算(一)《基金合同》的变更1、变更"
+              }
+            },
+            "facts": {
+              "fund_type": "qdii_index",
+              "share_class": "A",
+              "currency": "CNY",
+              "underlying_identity": "^GSPC",
+              "benchmark_name": "标普500指数收益率（经汇率调整）×95%＋银行活期存款税后利率×5%",
+              "management_fee_annual_fraction": 0.005,
+              "custody_fee_annual_fraction": 0.0015,
+              "management_charge_base": "previous_calendar_day_full_fund_net_assets",
+              "custody_charge_base": "previous_calendar_day_full_fund_net_assets",
+              "sales_service_fee_annual_fraction": 0.0,
+              "opening_days": "上海、深圳、主要境外市场及相关期货交易所同时开放的工作日",
+              "confirmation_normal_case": "T+2 working days; valid request; query from T+3",
+              "redemption_payment_normal_case": "within T+10 working days including that day after effective redemption",
+              "nav_publication_normal_case": "within two fund working days after each open day",
+              "dealing_exceptions": "foreign/FX market closure, exchange/bank data failures and settlement changes may extend payment",
+              "benchmark_return_variant": "not independently matched to an official S&P index-return variant; ^GSPC is a price reference"
+            }
+          },
+          "identity_bridge": {
+            "sha256": "29e4c0c1fdd01818adb91ab1baab387b10318ed3b209cb000e859311ea450290",
+            "share_code": "017641",
+            "fund_family_name": "摩根标普500指数型发起式证券投资基金(QDII)"
+          }
+        }
+      ]
+    },
+    "012552": {
+      "name": "天弘中证芯片产业ETF发起联接A",
+      "manager": "天弘基金",
+      "registry_verified_at": "2026-10-06",
+      "issuer_document_hosts": [
+        "cdn-thweb.tianhongjijin.com.cn"
+      ],
+      "documents": [
+        {
+          "kind": "summary",
+          "publication_date": "2026-06-26",
+          "url": "https://www.hongdianfund.com/FundAnnouncement/DownloadAccess/0000000000001qvz2l/1",
+          "source_origin": "distributor_disclosure_copy",
+          "reviewed_facts": {
+            "sha256": "2264c577c0cfbf8210d95b9244378d2b7b9ad05fb9327e0c86fe903adeb93c0a",
+            "facts": {
+              "share_class": "A",
+              "currency": "CNY",
+              "fund_type": "etf_link",
+              "benchmark_name": "中证芯片产业指数收益率×95%＋银行活期存款利率（税后）×5%",
+              "management_fee_annual_fraction": 0.005,
+              "custody_fee_annual_fraction": 0.001,
+              "management_fee_base_exclusion": "assets_in_target_ETF",
+              "custody_fee_base_exclusion": "assets_in_target_ETF",
+              "subscription_fee_tiers": [
+                {
+                  "amount_CNY_less_than": 5000000,
+                  "fee_fraction": 0.01
+                },
+                {
+                  "amount_CNY_at_least": 5000000,
+                  "fixed_CNY_per_application": 1000
+                }
+              ],
+              "redemption_fee_tiers": [
+                {
+                  "holding_days_less_than": 7,
+                  "fee_fraction": 0.015
+                },
+                {
+                  "holding_days_at_least": 7,
+                  "holding_days_less_than": 30,
+                  "fee_fraction": 0.003
+                },
+                {
+                  "holding_days_at_least": 30,
+                  "fee_fraction": 0.0005
+                }
+              ],
+              "estimated_ongoing_expense_ratio_annual_fraction": 0.0062,
+              "estimated_expense_basis": "other expenses estimated from most recent annual report; not an extra charge on NAV return"
+            },
+            "field_evidence": {
+              "share_class": {
+                "page": 1,
+                "excerpt": "(A类份额)；基金代码A012552"
+              },
+              "currency": {
+                "page": 1,
+                "excerpt": "基金类型股票型；交易币种人民币"
+              },
+              "fund_type": {
+                "page": 2,
+                "excerpt": "本基金为目标ETF的联接基金"
+              },
+              "benchmark_name": {
+                "page": 2,
+                "excerpt": "中证芯片产业指数收益率×95%＋银行活期存款利率（税后）×5%"
+              },
+              "management_fee_annual_fraction": {
+                "page": 4,
+                "excerpt": "管理费0.50%"
+              },
+              "custody_fee_annual_fraction": {
+                "page": 4,
+                "excerpt": "托管费0.10%"
+              },
+              "management_fee_base_exclusion": {
+                "page": 4,
+                "excerpt": "本基金基金财产中投资于目标ETF的部分不收取管理费和托管费"
+              },
+              "custody_fee_base_exclusion": {
+                "page": 4,
+                "excerpt": "本基金基金财产中投资于目标ETF的部分不收取管理费和托管费"
+              },
+              "subscription_fee_tiers": {
+                "page": 4,
+                "excerpt": "M＜500万1.00%；500万≤M1000元/笔；每笔申购单独计算"
+              },
+              "redemption_fee_tiers": {
+                "page": 4,
+                "excerpt": "N＜7天1.50%；7天≤N＜30天0.30%；30天≤N0.05%"
+              },
+              "estimated_ongoing_expense_ratio_annual_fraction": {
+                "page": 4,
+                "excerpt": "基金运作综合费率（年化）0.62%；其他运作费用以最近一次基金年报数据为基准测算"
+              }
+            }
+          }
+        },
+        {
+          "kind": "prospectus",
+          "publication_date": "2026-03-07",
+          "url": "https://cdn-thweb.tianhongjijin.com.cn/fundnotice/e92cd76dd6492d5c9f065dadaffbbb0b.pdf",
+          "identity_bridge": {
+            "sha256": "2264c577c0cfbf8210d95b9244378d2b7b9ad05fb9327e0c86fe903adeb93c0a",
+            "share_code": "012552",
+            "fund_family_name": "天弘中证芯片产业交易型开放式指数证券投资基金发起式联接基金"
+          },
+          "reviewed_facts": {
+            "sha256": "cdd97553dca1130b1dc7db48152bd158c5b2d8ca06791423f213f416b2090aef",
+            "facts": {
+              "management_fee_annual_fraction": 0.005,
+              "custody_fee_annual_fraction": 0.001,
+              "management_charge_base": "max(previous_day_fund_net_assets_minus_previous_day_target_ETF_net_asset_value,0)",
+              "custody_charge_base": "max(previous_day_fund_net_assets_minus_previous_day_target_ETF_net_asset_value,0)",
+              "sales_service_fee_annual_fraction": 0.0,
+              "target_etf_name": "天弘中证芯片产业交易型开放式指数证券投资基金",
+              "opening_days": "Normal Shanghai and Shenzhen exchange trading days/hours; announced suspensions and changes are exceptions",
+              "confirmation_normal_case": "Normal T+1 working-day confirmation; query T+2 including that day",
+              "redemption_payment_normal_case": "Effective application on day T is paid by T+7 inclusive; T+n counts exchange working days from application T, excluding T, not seven days after confirmation; specified exceptions may defer payment",
+              "nav_publication_normal_case": "No later than the calendar day following each open day; half-year/year-end disclosure also due next day",
+              "dealing_exceptions": "Announced suspension, delayed market/bank/communication data, force majeure, large redemption and valuation exceptions remain applicable",
+              "nav_calendar_contract": {
+                "verified": true,
+                "valuation_market": "CN_CASH",
+                "publication_rule": "next_calendar_day_end",
+                "normal_case_only": true,
+                "special_valuation_dates": [
+                  "2026-06-30",
+                  "2026-12-31"
+                ]
+              },
+              "subscription_charge_base": "Each single subscription application amount; proportional fee uses outside deduction",
+              "subscription_fee_calculation": "For proportional rate r: net=A/(1+r), fee=A-net; for fixed fee f: net=A-f; A-share subscription shares=net/NAV_A_on_application_day",
+              "redemption_charge_base": "Redeemed A-class shares multiplied by NAV_A_on_redemption_application_day",
+              "redemption_fee_calculation": "gross=shares*NAV_A, fee=gross*holding_period_rate, net=gross-fee",
+              "subscription_fee_share_rounding": "Valid subscription shares rounded half up to two decimal places",
+              "redemption_fee_amount_rounding": "Gross redemption amount, fee and net redemption amount rounded half up to two decimal places"
+            },
+            "field_evidence": {
+              "management_charge_base": {
+                "page": 68,
+                "excerpt": "前一日基金资产净值扣除前一日所持有目标ETF基金份额部分的基金资产净值，若为负数则E取0；0.50%"
+              },
+              "custody_charge_base": {
+                "page": 69,
+                "excerpt": "前一日基金资产净值扣除前一日所持有目标ETF基金份额部分的基金资产净值后的余额，若为负数则取0；0.10%"
+              },
+              "sales_service_fee_annual_fraction": {
+                "page": 69,
+                "excerpt": "本基金A类基金份额不收取销售服务费，C类销售服务费年费率0.25%"
+              },
+              "target_etf_name": {
+                "page": 9,
+                "excerpt": "本基金选择天弘中证芯片产业交易型开放式指数证券投资基金为目标ETF"
+              },
+              "opening_days": {
+                "page": 33,
+                "excerpt": "上海证券交易所、深圳证券交易所的正常交易日的交易时间；公告暂停申购、赎回时除外"
+              },
+              "confirmation": {
+                "page": 34,
+                "excerpt": "在正常情况下，本基金登记机构在T+1日内对该交易的有效性进行确认；T+2日后包括该日查询"
+              },
+              "payment": {
+                "pages": [
+                  10,
+                  34
+                ],
+                "excerpt": "T+n从T起第n个工作日不包含T；投资者T日赎回申请生效后，将在T+7日包括该日内支付；存在规定顺延例外"
+              },
+              "nav_publication": {
+                "page": 73,
+                "excerpt": "在不晚于每个开放日的次日披露；半年度和年度最后一日的次日披露"
+              },
+              "nav_calendar_contract": {
+                "pages": [
+                  10,
+                  33,
+                  60,
+                  73
+                ],
+                "excerpt": "工作日为上海、深圳正常交易日；开放日工作日；相关交易场所交易日及法定非交易估值日；各开放日次日披露"
+              },
+              "dealing_exceptions": {
+                "page": 34,
+                "excerpt": "交易市场数据传输延迟、通信系统故障、银行数据交换系统故障等；巨额赎回等依合同处理"
+              },
+              "subscription_charge_base": {
+                "page": 37,
+                "excerpt": "净申购金额=申购金额/(1+申购费率)；申购费用=申购金额-净申购金额；固定费用时净申购金额=申购金额-申购费用"
+              },
+              "subscription_fee_calculation": {
+                "page": 37,
+                "excerpt": "申购份额=净申购金额/申购当日A类基金份额净值；固定费用与比例费用分别计算"
+              },
+              "redemption_charge_base": {
+                "page": 38,
+                "excerpt": "赎回总额=赎回份额×赎回当日该类基金份额净值"
+              },
+              "redemption_fee_calculation": {
+                "page": 38,
+                "excerpt": "赎回费用=赎回总额×赎回费率；赎回金额=赎回总额-赎回费用"
+              },
+              "subscription_fee_share_rounding": {
+                "page": 37,
+                "excerpt": "申购的有效份额单位为份，结果按四舍五入保留到小数点后2位"
+              },
+              "redemption_fee_amount_rounding": {
+                "page": 38,
+                "excerpt": "赎回总额、赎回费用、赎回金额等计算结果按四舍五入保留到小数点后2位"
+              }
+            }
+          }
+        }
+      ],
+      "unresolved_primary_sources": [
+        {
+          "kind": "summary",
+          "publication_date": "2026-06-26",
+          "url": "https://eid.csrc.gov.cn/fund/disclose/instance_show_pdf_id.do?instanceid=1512091",
+          "state": "TLS_handshake_failed_with_Python_and_Windows_curl_on_2026-10-05"
+        },
+        {
+          "kind": "prospectus",
+          "publication_date": "2026-03-07",
+          "url": "https://eid.csrc.gov.cn/fund/disclose/instance_show_pdf_id.do?instanceid=1441103",
+          "state": "TLS_handshake_failed_with_Python_and_Windows_curl_on_2026-10-05"
+        }
+      ],
+      "disclosure_copy_hosts": [
+        "www.hongdianfund.com",
+        "hongdianfund.com"
+      ]
+    }
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "events": {
+    "sh600519|1225333825": {
+      "document_sha256": "c3d2cf8322ad4b8d8b69c914a0afd265bf0f85cdaa1f023d00109caa0a9721c1",
+      "event_type": "share_repurchase",
+      "status": "completed",
+      "event_date": "2026-05-27",
+      "economic_role": "capital_return_background",
+      "facts": {
+        "amount_CNY": 2999933749.57,
+        "purpose": "cancellation_and_capital_reduction",
+        "shares_repurchased": 2188614
+      },
+      "interpretation": "本次回购已实施完成，不能由该历史公告推断当前仍有公司回购买盘或价格底线。",
+      "page_evidence": [
+        {
+          "page": 2,
+          "source_text": "2026 年 5 月 27 日，公司回购股份实施完成"
+        },
+        {
+          "page": 2,
+          "source_text": "使用资金总额 2,999,933,749.57 元（不含交易费用）"
+        }
+      ]
+    },
+    "sh600519|1225475864": {
+      "document_sha256": "1a12378ed0e4a803eae00e73c74bc20eb2d73821fc960d746d52476dbf80df1d",
+      "event_type": "accounting_policy",
+      "status": "implemented",
+      "economic_role": "reported_accounting_comparability",
+      "facts": {
+        "issuer_reports_no_retrospective_restatement": true,
+        "issuer_reports_no_material_financial_effect": true
+      },
+      "interpretation": "公司披露变更不涉及以前年度追溯调整且无重大影响；这不是经营利润改善的证据。",
+      "page_evidence": [
+        {
+          "page": 3,
+          "source_text": "本次会计政策变更不涉及对公司以前年度的追溯调整，对公司财务状况、经营成果和现金流量无重大影响"
+        }
+      ]
+    },
+    "sh600519|1225475856": {
+      "document_sha256": "fc78904a1a1babaea6e31838d5a8c3fc7933c6d1925fd3101942c130d21c66fc",
+      "event_type": "results_briefing_schedule",
+      "status": "scheduled",
+      "event_date": "2026-08-21",
+      "economic_role": "investor_information_schedule",
+      "facts": {
+        "scheduled_start": "2026-08-21T15:00:00+08:00",
+        "scheduled_end": "2026-08-21T16:00:00+08:00",
+        "actual_completion_not_verified": true
+      },
+      "interpretation": "所披露的会议日期已经过去，不能在当前研报中作为待发生的业绩催化；交流内容需要另行核对。",
+      "page_evidence": [
+        {
+          "page": 1,
+          "source_text": "会议召开时间：2026 年 8 月 21 日（星期五）15:00－16:00"
+        }
+      ]
+    },
+    "sh600519|1225379934": {
+      "document_sha256": "6b082b6a00db748f23b6dea166b0296cd69d8c10542d352e23d2e2c344ea516e",
+      "event_type": "cash_dividend",
+      "status": "declared_distribution_dates",
+      "event_date": "2026-06-26",
+      "economic_role": "corporate_action",
+      "facts": {
+        "record_date": "2026-06-25",
+        "ex_date": "2026-06-26",
+        "payment_date": "2026-06-26",
+        "cash_per_share_CNY": 28.02423,
+        "amount_basis": "gross_before_personal_tax"
+      },
+      "interpretation": "现金红利应进入持仓回报模拟；未复权价格的除息变化不能直接等同于经营恶化或总回报损失。",
+      "page_evidence": [
+        {
+          "page": 1,
+          "source_text": "A 股每股现金红利28.02423元"
+        },
+        {
+          "page": 1,
+          "source_text": "Ａ股 2026/6/25 － 2026/6/26 2026/6/26"
+        }
+      ]
+    },
+    "sh600519|1225324463": {
+      "document_sha256": "c9f210d9ef29b17256c0a7c4199aed31c5fb06a91e6cc472513db188a2a0692f",
+      "event_type": "related_party_trademark_license",
+      "status": "proposal_in_disclosed_document",
+      "event_date": "2027-01-01",
+      "economic_role": "long_term_operating_contract",
+      "facts": {
+        "license_fee_fraction": 0.015,
+        "term_start": "2027-01-01",
+        "term_end": "2029-12-31",
+        "subsequent_approval_not_verified": true
+      },
+      "interpretation": "需结合许可费的具体收入基数和后续审批评估；合同期限自2027年起，不能把长期安排直接当成当前20日价格催化。",
+      "page_evidence": [
+        {
+          "page": 3,
+          "source_text": "商标许可使用费的收费比例为1.5%"
+        },
+        {
+          "page": 3,
+          "source_text": "2027 年1月1 日至2029 年12 月31 日"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "coverage_start": "2026-01-01",
+  "coverage_end": "2026-12-31",
+  "verified_at": "2026-10-05",
+  "scope": "scheduled cash-equity/index sessions; futures and fund valuation calendars are separate",
+  "markets": {
+    "CN_CASH": {
+      "timezone": "Asia/Shanghai", "close": "15:00", "holiday_file": "cn-exchange-calendar-2026.json",
+      "sources": ["https://www.sse.com.cn/disclosure/dealinstruc/closed/c/c_20251222_10802510.shtml"]
+    },
+    "US_CASH": {
+      "timezone": "America/New_York", "close": "16:00",
+      "closed_dates": ["2026-01-01","2026-01-19","2026-02-16","2026-04-03","2026-05-25","2026-06-19","2026-07-03","2026-09-07","2026-11-26","2026-12-25"],
+      "early_closes": {"2026-11-27":"13:00","2026-12-24":"13:00"},
+      "sources": ["https://www.nyse.com/trade/hours-calendars","https://www.nasdaq.com/market-activity/stock-market-holiday-schedule"]
+    },
+    "HK_CASH": {
+      "timezone": "Asia/Hong_Kong", "close": "16:10",
+      "closed_dates": ["2026-01-01","2026-02-17","2026-02-18","2026-02-19","2026-04-03","2026-04-06","2026-04-07","2026-05-01","2026-05-25","2026-06-19","2026-07-01","2026-10-01","2026-10-19","2026-12-25"],
+      "early_closes": {"2026-02-16":"12:10","2026-12-24":"12:10","2026-12-31":"12:10"},
+      "sources": ["https://www.hkex.com.hk/-/media/HKEX-Market/Services/Circulars-and-Notices/Participant-and-Members-Circulars/SEHK/2025/ce_SEHK_CT_075_2025.pdf","https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market"]
+    },
+    "JP_CASH": {
+      "timezone": "Asia/Tokyo", "close": "15:30",
+      "closed_dates": ["2026-01-01","2026-01-02","2026-01-03","2026-01-12","2026-02-11","2026-02-23","2026-03-20","2026-04-29","2026-05-03","2026-05-04","2026-05-05","2026-05-06","2026-07-20","2026-08-11","2026-09-21","2026-09-22","2026-09-23","2026-10-12","2026-11-03","2026-11-23","2026-12-31"],
+      "sources": ["https://www.jpx.co.jp/english/corporate/about-jpx/calendar/index.html","https://www.jpx.co.jp/english/equities/trading/domestic/01.html"]
+    },
+    "STOXX_EUROPE": {
+      "timezone": "Europe/Zurich", "close": "18:00",
+      "closed_dates": ["2026-01-01","2026-04-03","2026-04-06","2026-12-25","2026-12-26"],
+      "sources": ["https://www.stoxx.com/dissemination","https://stoxx.com/index/SX5E/"],
+      "scope": "EURO STOXX 50 dissemination, not every European exchange or all index variants"
+    }
+  }
+}

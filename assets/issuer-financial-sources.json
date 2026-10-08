@@ -1,0 +1,187 @@
+{
+  "reports": {
+    "sh600519|2026-06-30": {
+      "identity": "sh600519",
+      "company_name": "贵州茅台酒股份有限公司",
+      "period_start": "2026-01-01",
+      "period_end": "2026-06-30",
+      "period_type": "H1",
+      "period_months": 6,
+      "publication_date": "2026-08-15",
+      "publication_precision": "date_only",
+      "publication_date_source": "https://www.sse.com.cn/assortment/stock/list/info/announcement/index.shtml?productId=600519",
+      "source_url": "https://static.cninfo.com.cn/finalpage/2026-08-15/1225475868.PDF",
+      "approved_hosts": [
+        "static.cninfo.com.cn"
+      ],
+      "reviewed_sha256": "0e10aa26be46b1cf3cd03f06e834c7fb98d5dd0d661b96f8fddd4af7e846a4f6",
+      "reviewed_fields": [
+        {
+          "name": "operating_revenue",
+          "source_label": "营业收入",
+          "reported_decimal": "90703260964.48",
+          "unit": "CNY_yuan",
+          "page": 5,
+          "accounting_scope": "consolidated",
+          "period_kind": "flow_YTD",
+          "prior_reported_decimal": "89389354416.84",
+          "prior_basis": "2025-01-01_to_2025-06-30",
+          "table_schema": "headline_flow",
+          "row_label": "营业收入",
+          "header_evidence_page": 5
+        },
+        {
+          "name": "total_revenue",
+          "source_label": "营业总收入",
+          "reported_decimal": "92278072083.21",
+          "unit": "CNY_yuan",
+          "page": 30,
+          "accounting_scope": "consolidated_including_interest_income",
+          "period_kind": "flow_YTD",
+          "prior_reported_decimal": "91093762553.97",
+          "prior_basis": "2025-01-01_to_2025-06-30",
+          "table_schema": "consolidated_income",
+          "row_label": "一、营业总收入",
+          "header_evidence_page": 30
+        },
+        {
+          "name": "net_profit_total",
+          "source_label": "净利润",
+          "reported_decimal": "46033330566.78",
+          "unit": "CNY_yuan",
+          "page": 31,
+          "accounting_scope": "consolidated_including_noncontrolling_interests",
+          "period_kind": "flow_YTD",
+          "prior_reported_decimal": "46986681449.24",
+          "prior_basis": "2025-01-01_to_2025-06-30",
+          "unit_evidence_page": 30,
+          "table_schema": "consolidated_income",
+          "row_label": "五、净利润（净亏损以“-”号填列）",
+          "header_evidence_page": 30
+        },
+        {
+          "name": "net_profit_parent",
+          "source_label": "归属于上市公司股东的净利润",
+          "reported_decimal": "44516880421.86",
+          "unit": "CNY_yuan",
+          "page": 5,
+          "accounting_scope": "attributable_to_parent_shareholders",
+          "period_kind": "flow_YTD",
+          "prior_reported_decimal": "45402962298.10",
+          "prior_basis": "2025-01-01_to_2025-06-30",
+          "table_schema": "headline_flow",
+          "row_label": "归属于上市公司股东的净利润",
+          "header_evidence_page": 5
+        },
+        {
+          "name": "cashflow_operating_net",
+          "source_label": "经营活动产生的现金流量净额",
+          "reported_decimal": "70690750119.06",
+          "unit": "CNY_yuan",
+          "page": 34,
+          "accounting_scope": "consolidated_including_finance_subsidiary",
+          "period_kind": "flow_YTD",
+          "prior_reported_decimal": "13119061031.33",
+          "prior_basis": "2025-01-01_to_2025-06-30",
+          "unit_evidence_page": 33,
+          "table_schema": "consolidated_cashflow",
+          "row_label": "经营活动产生的现金流量净额",
+          "header_evidence_page": 33
+        },
+        {
+          "name": "operating_cost",
+          "source_label": "营业成本",
+          "reported_decimal": "9473762565.88",
+          "unit": "CNY_yuan",
+          "page": 30,
+          "accounting_scope": "consolidated",
+          "period_kind": "flow_YTD",
+          "prior_reported_decimal": "7777491083.93",
+          "prior_basis": "2025-01-01_to_2025-06-30",
+          "table_schema": "consolidated_income",
+          "row_label": "其中：营业成本",
+          "header_evidence_page": 30
+        },
+        {
+          "name": "total_assets",
+          "source_label": "总资产",
+          "reported_decimal": "309050784569.31",
+          "unit": "CNY_yuan",
+          "page": 5,
+          "accounting_scope": "consolidated",
+          "period_kind": "point_at_period_end",
+          "prior_reported_decimal": "303834844021.44",
+          "prior_basis": "2025-12-31_not_prior_year_same_period",
+          "table_schema": "headline_stock",
+          "row_label": "总资产",
+          "header_evidence_page": 5
+        },
+        {
+          "name": "equity_parent",
+          "source_label": "归属于上市公司股东的净资产",
+          "reported_decimal": "251253594419.50",
+          "unit": "CNY_yuan",
+          "page": 5,
+          "accounting_scope": "attributable_to_parent_shareholders",
+          "period_kind": "point_at_period_end",
+          "prior_reported_decimal": "244637811032.18",
+          "prior_basis": "2025-12-31_not_prior_year_same_period",
+          "table_schema": "headline_stock",
+          "row_label": "归属于上市公司股东的净资产",
+          "header_evidence_page": 5
+        },
+        {
+          "name": "shares_total",
+          "source_label": "股份总数",
+          "reported_decimal": "1250081601",
+          "unit": "share",
+          "page": 22,
+          "accounting_scope": "issuer_outstanding_shares",
+          "period_kind": "point_at_period_end",
+          "prior_reported_decimal": "1252270215",
+          "prior_basis": "2025-12-31_not_prior_year_same_period",
+          "table_schema": "share_changes",
+          "row_label": "三、股份总数",
+          "header_evidence_page": 22
+        },
+        {
+          "name": "basic_eps",
+          "source_label": "基本每股收益",
+          "reported_decimal": "35.57",
+          "unit": "CNY_yuan_per_share",
+          "page": 5,
+          "accounting_scope": "basic_H1_not_TTM",
+          "period_kind": "flow_YTD",
+          "prior_reported_decimal": "36.18",
+          "prior_basis": "2025-01-01_to_2025-06-30",
+          "table_schema": "financial_indicators",
+          "row_label": "基本每股收益（元／股）",
+          "header_evidence_page": 5
+        },
+        {
+          "name": "roe_weighted",
+          "source_label": "加权平均净资产收益率",
+          "reported_decimal": "16.75",
+          "unit": "percent",
+          "page": 5,
+          "accounting_scope": "issuer_reported_weighted_ROE_not_vendor_roeAvg",
+          "period_kind": "flow_YTD",
+          "prior_reported_decimal": "17.89",
+          "prior_basis": "2025-01-01_to_2025-06-30",
+          "table_schema": "financial_indicators",
+          "row_label": "加权平均净资产收益率（%）",
+          "header_evidence_page": 5
+        }
+      ],
+      "audited": false,
+      "contexts": [
+        {
+          "name": "operating_cashflow_driver",
+          "page": 5,
+          "source_text": "经营活动产生的现金流量净额增加主要是本期公司控股子公司贵州茅台集团财务有限公司吸收集团公司成员单位存款增加及不可随时支取的同业存款减少"
+        }
+      ],
+      "review_scope": "one issuer and H1 period; unchanged raw vendor values; no TTM or global vendor-unit approval"
+    }
+  }
+}

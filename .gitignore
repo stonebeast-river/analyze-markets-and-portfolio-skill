@@ -1,0 +1,11 @@
+.venv/
+runtime/
+market-data/
+research-output/
+__pycache__/
+*.py[cod]
+*.sqlite3*
+.env
+.env.*
+market-config.json
+portfolio*.json
